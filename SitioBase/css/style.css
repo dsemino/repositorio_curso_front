@@ -1,0 +1,332 @@
+/* Estilos generales para toda la página */
+body {
+    font-family: 'Kanit', sans-serif; /* Usamos la fuente importada */
+    margin: 0; /* Quitamos márgenes predeterminados */
+    padding: 0; /* Quitamos padding predeterminado */
+}
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 800;
+    font-style:italic;
+    font-size: 3rem;
+    color: #330ce3;
+  }
+
+.Logo {
+    max-width: 100px; /* Tamaño máximo del logo */
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+ 
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #05a1bc; /* Color de fondo oscuro */
+    padding: 10px 20px; /* Espacio interno alrededor del contenido */
+    display: flex; /* Usamos flexbox para organizar los elementos */
+    justify-content: space-between; /* Espaciamos los elementos a los lados */
+    align-items: center; /* Centramos verticalmente los elementos */
+    position: sticky; /* Hacemos que el menú se quede fijo al hacer scroll */
+    top: 0; /* Posicionamos el menú en la parte superior */
+    z-index: 1000; /* Aseguramos que el menú esté por encima de otros elementos */
+}
+
+/* Estilos para el logo y el título en el menú */
+.nav_inicio {
+    display: flex; /* Usamos flexbox */
+    align-items: center; /* Centramos verticalmente */
+    
+}
+#main{
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 1rem; /* Espacio interno */
+    text-align: justify; /* Justifica el texto */
+}
+
+
+
+/* Estilos para la barra de navegación */
+.navbar-menu {
+    display: flex; /* Usa flexbox para centrar */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    background-color: #05a1bc; /* Color de fondo (ajústalo si es necesario) */
+    padding: 10px 0; /* Espacio vertical */
+}
+
+.navbar-menu ul {
+    display: flex; /* Hace que los elementos de la lista se alineen en fila */
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar-menu ul li {
+    margin: 0 1rem; /* Espacio entre los enlaces */
+    
+}
+
+.navbar-menu ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: bold;
+    color: rgb(75, 42, 241); /* Color del texto */
+   
+}
+
+/* estilos para las tarjetas de la pagina de inicio como de producto */
+
+.card-text{
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+    font-weight:lighter;
+}
+
+.card{
+    background-color: rgb(180, 134, 222);
+}
+
+
+.Titulo {
+    color: white; /* Color del texto en blanco */
+    font-size: 24px; /* Tamaño del texto */
+    margin: 0; /* Quitamos márgenes */
+}
+
+/* Estilos para los iconos en el menú */
+.iconos a {
+    margin-left: 20px; /* Espacio entre los iconos */
+    margin-right: 30px;
+    font-size: 30px;
+    color: aqua;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    margin-top: 0px; /* Espacio superior antes del carrusel */
+    background-color: rgb(65, 203, 196);
+}
+
+.carousel-item img {
+    height: 500px; /* Altura fija de las imágenes */
+    object-fit: scale-down; /* Las imágenes cubren todo el espacio disponible */
+}
+
+
+/* Estilos para el subtítulo en el contenido principal */
+.main_subtitulo {
+    text-align: center; /* Centramos el texto */
+    margin-top: 20px; /* Espacio superior */
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+/* Estilos para el contenedor de las tarjetas de productos */
+
+.contenido {
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 1rem; /* Espacio interno */
+    text-align: justify; /* Justifica el texto */
+    background-color: #96edf7;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+
+
+.main_cards {
+    display: flex; /* Usamos flexbox */
+    justify-content:space-around; /* Espaciamos las tarjetas uniformemente */
+    flex-wrap: wrap; /* Permitimos que las tarjetas pasen a la siguiente línea si es necesario */
+    margin-top: 10px; /* Espacio superior */
+    
+}
+.main_cards_prod {
+    display: flex; /* Usamos flexbox */
+    justify-content:space-around; /* Espaciamos las tarjetas uniformemente */
+    flex-wrap: wrap; /* Permitimos que las tarjetas pasen a la siguiente línea si es necesario */
+    margin-top: 10px; /* Espacio superior */
+    
+}
+ /* estilos para las tarjetas de la pagina principal */
+.card {
+    margin: 10px; /* Espacio alrededor de cada tarjeta */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+/* estilos para las tarjetas de la pagina productos */
+
+.card_prod {
+    margin: 10px; /* Espacio alrededor de cada tarjeta */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    background-color: rgb(226, 195, 43);
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    padding: 20px; /* Espacio interno */
+    background-color: #1eacc2; /* Color de fondo claro */
+    text-align: center; /* Centramos el contenido */
+    margin-top: 0px; /* Espacio superior antes del pie de página */
+}
+
+footer a {
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    color: #007bff; /* Color azul para el enlace */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+footer form {
+    margin-top: 10px; /* Espacio superior antes del formulario */
+}
+
+footer form h1 {
+    font-size: 24px; /* Tamaño del título del formulario */
+}
+
+
+
+
+/* Estilos para las imágenes de redes sociales */
+footer .RSocial {
+    width: 40px; /* Ancho de los iconos */
+    margin: 8px; /* Espacio alrededor de cada icono */
+}
+
+/* Media Queries para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+    /* Ajustamos el tamaño del logo */
+    .Logo {
+        max-width: 60px;
+    }
+    /* Las tarjetas se apilan verticalmente */
+    .main_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustamos el ancho de las tarjetas */
+    .card {
+        width: 80%; /* Las tarjetas ocupan el 80% del ancho */
+    }
+    /* Ajustamos la altura de las imágenes del carrusel */
+    .carousel-item img {
+        height: 300px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+/* Media Queries para pantallas pequeñas (celulares) */
+@media (max-width: 480px) {
+    /* Ajustamos el tamaño del logo */
+    .Logo {
+        max-width: 50px;
+    }
+    /* Ajustamos el ancho de las tarjetas */
+    .card {
+        width: 90%; /* Las tarjetas ocupan el 90% del ancho */
+    }
+    /* Ajustamos la altura de las imágenes del carrusel */
+    .carousel-item img {
+        height: 200px;
+    }
+    /* Ajustamos el tamaño del título */
+    .Titulo {
+        font-size: 20px;
+    }
+    /* Ajustamos los títulos en el pie de página */
+    footer form h1, footer h1 {
+        font-size: 20px;
+    }
+    /* Ajustamos el tamaño del enlace en el pie de página */
+    footer a {
+        font-size: 16px;
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Estilos para la página quienes_somos */
+.main-content {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 1rem; /* Espacio interno */
+    text-align: justify; /* Justifica el texto */
+    background-color: #b6ecf4;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+}
+.main-content p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(11, 11, 11);
+}
+
+.main-content h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-content button{
+    padding: 10px 20px; /* Espacio interno del botón */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+
+}
+
+.main-content button:hover {
+    background-color: #b30045; /* Color más oscuro al pasar el mouse*/
+}
+.main-content input, .main-content textarea{
+    width: 100%; /* Campos ocupan todo el ancho disponible */
+    padding: 10px; /* Espacio interno en los campos */
+    margin-bottom: 10px; /* Espacio inferior entre los campos */
+    border: 2px solid #4695e4; /* color Borde  */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.8); ;
+}
+
+
+
+.titulo_quienes_somos {
+    text-align: center; /* Centra el título */
+    margin-bottom: 1.5rem;
+}
+
+.parrafo_quienes_somos {
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin-bottom: 1rem; /* Espacio entre párrafos */
+}
+
+/* Estilos para el contenedor del video */
+.video-container {
+    display: flex;
+    width: 80%;
+    justify-content:center; /* Centra el video horizontalmente */
+    margin: 0.5rem auto 0.5rem auto
+}
+
+.video-container video {
+    max-width: 100%; /* Ajusta el ancho del video al contenedor */
+    height:auto; /* Mantiene la proporción del video */
+}
