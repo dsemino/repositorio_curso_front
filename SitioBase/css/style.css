@@ -82,9 +82,17 @@ nav {
     text-align: center;
 }
 
+button{
+    text-align: center;
+    background-color:rgb(221, 207, 151);
+    justify-content: center;
+    border-radius: 5px;
+}
+
 .card-title{
     text-align: center;
     font-weight:lighter;
+    
 }
 
 .card{
