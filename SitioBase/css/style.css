@@ -84,14 +84,18 @@ nav {
 
 button{
     text-align: center;
-    background-color:rgb(221, 207, 151);
+    background-color:rgb(215, 221, 151);
     justify-content: center;
     border-radius: 5px;
-}
+} 
 
 .card-title{
     text-align: center;
     font-weight:lighter;
+    
+}
+.card_prod{
+    text-align: center;
     
 }
 
@@ -223,9 +227,10 @@ footer .RSocial {
         align-items: center;
     }
     /* Ajustamos el ancho de las tarjetas */
-    .card {
+    .card{
         width: 80%; /* Las tarjetas ocupan el 80% del ancho */
     }
+    
     /* Ajustamos la altura de las imágenes del carrusel */
     .carousel-item img {
         height: 300px;
@@ -337,4 +342,11 @@ footer .RSocial {
 .video-container video {
     max-width: 100%; /* Ajusta el ancho del video al contenedor */
     height:auto; /* Mantiene la proporción del video */
+}
+
+.icono-carrito{
+    margin-left: 30px; /* Espacio entre los iconos */
+    margin-right: 30px;
+    font-size: 40px;
+    color: rgb(81, 0, 255);
 }

@@ -1,5 +1,5 @@
 // variable global para almacenar los productos seleccionados
-let carrito = [];
+let carrito = JSON.parse(localStorage.getItem("carrito"));
 
 const agregarAlcarrito = (nombre,precio) =>{
     //agregar el producto como un objeto al carrito
@@ -23,4 +23,5 @@ const actualizarContador = ()=>{
 
 window.addEventListener("beforeunload",()=>{
 localStorage.setItem("carrito",JSON.stringify(carrito))
+
 });
