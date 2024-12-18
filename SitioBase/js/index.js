@@ -1,7 +1,7 @@
 // variable global para almacenar los productos seleccionados
-let carrito = JSON.parse(localStorage.getItem("carrito"));
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-const agregarAlcarrito = (nombre,precio) =>{
+const agregarAlcarrito = (nombre,precio) => {
     //agregar el producto como un objeto al carrito
     carrito.push({nombre,precio})
 

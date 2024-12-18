@@ -14,7 +14,9 @@ video local
 linkeos entre diferentes paginas
 formulario de consulta con formspree
 
-Espero que este primer ejemplo sirva creo que hay bastante para agregar.
+Acabo de probar el codigo en chrome y funciona perfecto, lo subi a git y probando desde github pages no carga productos al carrito
+
+Algo debe estar fallando pero no encuentro cual es el problema
 
 Saludos!!!!! ;)
 
