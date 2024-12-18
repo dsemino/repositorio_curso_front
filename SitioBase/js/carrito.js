@@ -49,7 +49,7 @@ const eliminarDelCarrito=(indice)=>{
 const realizarCompra =()=>{
     alert("compra realizada con exito")
     localStorage.removeItem("carrito")
-    window.location.href="index.html"
+    window.location.href="../index.html"
 }
 
 // inicializar el carrito al carga la pagina
